@@ -1,0 +1,26 @@
+{
+  "name": "node-js-the-right-way",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neenjaw/node-js-the-right-way.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neenjaw/node-js-the-right-way/issues"
+  },
+  "homepage": "https://github.com/neenjaw/node-js-the-right-way#readme",
+  "devDependencies": {
+    "mocha": "^8.1.3"
+  }
+}

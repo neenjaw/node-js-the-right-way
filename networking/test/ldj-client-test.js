@@ -2,7 +2,7 @@
 
 const assert = require('assert')
 const EventEmitter = require('events').EventEmitter
-const LDJClient = require('../networking/lib/ldj-client')
+const LDJClient = require('../lib/ldj-client')
 
 // TODO:
 // - Write a test case which sends data eevnt that is not JSON

@@ -12,5 +12,7 @@ requester.on('message', (data) => {
 
 requester.connect('tcp://localhost:60401')
 
-console.log(`Sending a request for ${filename}`)
-requester.send(JSON.stringify({ path: filename }))
+for (let index = 0; index < 5; index++) {
+  console.log(`Sending request ${index} for ${filename}`)
+  requester.send(JSON.stringify({ path: filename }))
+}

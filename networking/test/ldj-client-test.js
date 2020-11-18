@@ -5,7 +5,7 @@ const EventEmitter = require('events').EventEmitter
 const LDJClient = require('../lib/ldj-client')
 
 // TODO:
-// - Write a test case which sends data eevnt that is not JSON
+// - Write a test case which sends data event that is not JSON
 // - Write a case where the stream object sends a data event with no newline
 //   followed by a close event
 

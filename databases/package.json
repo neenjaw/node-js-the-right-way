@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "test:watch": "mocha --watch --reporter min",
+    "debug": "node ./rdf-to-bulk.js ../data/cache/epub",
+    "test:debug": "node --inspect node_modules/mocha/bin/_mocha --watch --no-timeouts"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +15,9 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^8.2.1"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "node-dir": "^0.1.17"
   }
 }
